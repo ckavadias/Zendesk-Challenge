@@ -70,9 +70,11 @@ def print_ticket(ticket):
             print_(ticket[pair[1]])
         except KeyError:
             print_("unavailable")
-
+    
     #select from more fields to view or finish the viewing
-    while True:
+    #this feature has been deactivated as it strays from the spec
+    #and makes usage more complicated than necessary
+    '''while True:
         print_("\nYou may select from the following options to continue:")
         print_("\t'finish'    | Exit the selection")
         print_("\t'custom'    | Select a custom field to view")
@@ -91,7 +93,7 @@ def print_ticket(ticket):
         elif selection == "leave":
             leave_function()
         else:
-            print_("That wasn't one of my suggestions, try again :)")
+            print_("That wasn't one of my suggestions, try again :)")'''
     return
 
     
