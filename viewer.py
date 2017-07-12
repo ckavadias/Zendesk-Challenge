@@ -15,6 +15,9 @@ import platform
 URL = "https://ckavadias.zendesk.com/api/v2/tickets.json"
 AUTH = ("ckavadias@student.unimelb.edu.au", "letmein")
 VERSION = platform.python_version()[0]
+TOTAL_PAGE = 25
+MAX_PAGE = 100
+MAX_LINE = 40
 
 #check that input matches python version
 def check_input(message):
@@ -60,14 +63,23 @@ def print_ticket(ticket):
     
     #all fields will be tried first to avoid a KeyError crash
     try:
-        print_('-'*8,"Ticket number:",None,'-'*8)
+        print_('-'*8,"Ticket number:",ticket["id"],'-'*8)
     except KeyError:
         print_('-'*8,"Ticket number: unavailable",'-'*8)
         
     for pair in formats:
         print_(pair[0], end = ' ')
         try:
-            print_(ticket[pair[1]])
+    #formatting to esnure fields don't go off page
+            if len(str(ticket[pair[1]])) > MAX_LINE - len(pair[0]):
+                start = 0
+                end = MAX_LINE - len(pair[0])
+                while end < len(ticket[pair[1]]):
+                    print_(ticket[pair[1]][start:end])
+                    start = end
+                    end+=MAX_LINE
+            else:
+                print_(ticket[pair[1]])
         except KeyError:
             print_("unavailable")
     
@@ -101,7 +113,7 @@ def print_ticket(ticket):
 #print all tickets contained in page
 def print_tickets(page, count, total):
     
-    start = total*25 - 24
+    start = total*TOTAL_PAGE - 24
 
     print_("\t"+"-"*8 + "Total entries: "+str(count) + "-"*8 +"\t")
     if count == 0:
@@ -130,7 +142,7 @@ def print_options():
 
 #helping function to perform GET for tickets and related operations
 def get_tickets():
-    params = {"per_page":25, "page": 1}
+    params = {"per_page":TOTAL_PAGE, "page": 1}
 
     while True:
 
@@ -144,7 +156,7 @@ def get_tickets():
         try:
             page = data["tickets"]
         except KeyError:
-            print_("No tickets appear to have been returned, maybe", end=' ')
+            print_("No tickets appear to have been returned,", end=' ')
             print_("maybe try again later, good bye.")
         
         next_page = data["next_page"]
@@ -198,7 +210,7 @@ def get_tickets():
 #render a selected ticket
 def get_ticket():
     ticket = int(check_input("\nPlease type the ticket number and press enter: "))
-    params = {"per_page": 100, "page": ticket//100 + 1}
+    params = {"per_page": MAX_PAGE, "page": ticket//MAX_PAGE + 1}
     
     print ("Retrieving ticket number "+str(ticket)+" one moment please.\n")
 
@@ -216,7 +228,7 @@ def get_ticket():
         print_("maybe try again later, good bye.")
 
     try:
-        retrieved = page[ticket%100 - 1]
+        retrieved = page[ticket%MAX_PAGE - 1]
     except IndexError:
         print_("\nThat ticket doesn't appear to be available.")
         print_("I'm now returning to the options menu")
@@ -253,7 +265,7 @@ if VERSION == '2':
     print_("example: type 'leave' to select leave.\n\n")
 
 #startup welcome message    
-print_("Welcome, my name's Alfred\nI will be assisting with your tickets\n")
+print_("\nWelcome, my name's Alfred\nI will be assisting with your tickets\n")
 print_("    To view command options type 'options' then press enter")
 print_("    Alternatively to quit type 'leave' then press enter.\n")
 
