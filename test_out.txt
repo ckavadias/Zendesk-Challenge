@@ -1,0 +1,307 @@
+--------------------------------------------------PATH1--------------------------------------------------
+
+Welcome, my name's Alfred
+I will be assisting with your tickets
+
+    To view command options type 'options' then press enter
+    Alternatively to quit type 'leave' then press enter.
+
+
+I pick: 
+Type one of the following then press enter:
+	'tickets' | View all available tickets.
+	'select'  | View a specific ticket (have the ticket number ready).
+	'leave'   | Quit the viewer.
+	'options' | Make me repeat myself.
+
+I pick: 	--------Total entries: 201--------	
+Displaying 1 to 25
+Ticket no. | 			Ticket details
+     1     | 'Sample ticket: Meet the ticket'  submitted by  '114370568953'  on the day  '2017-07-08T04:10:19Z'
+     2     | 'velit eiusmod reprehenderit officia cupidatat'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:27Z'
+     3     | 'excepteur laborum ex occaecat Lorem'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:28Z'
+     4     | 'ad sunt qui aute ullamco'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:28Z'
+     5     | 'aliquip mollit quis laborum incididunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     6     | 'nisi aliquip ipsum nostrud amet'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     7     | 'cillum quis nostrud labore amet'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     8     | 'proident est nisi non irure'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:30Z'
+     9     | 'veniam ea eu minim aute'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:30Z'
+     10    | 'magna reprehenderit nisi est cillum'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     11    | 'quis veniam ad sunt non'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     12    | 'tempor aliquip sint dolore incididunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     13    | 'labore pariatur ut laboris laboris'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:32Z'
+     14    | 'officia mollit aliqua eu nostrud'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:32Z'
+     15    | 'do incididunt incididunt quis anim'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     16    | 'tempor magna anim ea id'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     17    | 'exercitation sit incididunt magna laboris'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     18    | 'laborum ea ut in cupidatat'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     19    | 'est fugiat labore pariatur esse'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     20    | 'commodo sint laboris est et'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     21    | 'laboris sint Lorem ex Lorem'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:35Z'
+     22    | 'esse adipisicing consectetur sunt tempor'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:35Z'
+     23    | 'sunt enim pariatur id id'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+     24    | 'et ad ut enim labore'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+     25    | 'voluptate dolor deserunt ea deserunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+
+You may type the following and press enter to proceed:
+	'next'      | View next page
+	'previous'  | View previous page
+	'select'    | View a specific ticket (have the ticket number ready
+	'options'   | Return to the options menu
+	'leave'     | Quit the viewer.
+
+I pick: 
+	--------Total entries: 201--------	
+Displaying 26 to 50
+Ticket no. | 			Ticket details
+     26    | 'in labore quis mollit mollit'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:37Z'
+     27    | 'ut magna eiusmod magna nostrud'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:37Z'
+     28    | 'magna consequat ut ullamco magna'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:37Z'
+     29    | 'irure pariatur aliquip dolore esse'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:38Z'
+     30    | 'officia esse nostrud est exercitation'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:38Z'
+     31    | 'aute ipsum sint exercitation labore'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:39Z'
+     32    | 'velit irure elit incididunt non'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:39Z'
+     33    | 'fugiat non aliqua irure aliquip'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:39Z'
+     34    | 'proident esse ut velit labore'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:40Z'
+     35    | 'laboris et proident qui enim'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:40Z'
+     36    | 'in id consequat dolore enim'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:40Z'
+     37    | 'enim duis deserunt ipsum ad'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:41Z'
+     38    | 'ipsum ex id minim eu'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:41Z'
+     39    | 'incididunt mollit pariatur esse esse'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:41Z'
+     40    | 'sit pariatur nisi reprehenderit sit'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:42Z'
+     41    | 'amet ipsum amet laborum sit'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:42Z'
+     42    | 'ut anim tempor voluptate deserunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:43Z'
+     43    | 'eu id magna aute occaecat'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:43Z'
+     44    | 'velit in sit deserunt id'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:43Z'
+     45    | 'proident esse laboris officia pariatur'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:44Z'
+     46    | 'irure esse irure qui dolore'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:44Z'
+     47    | 'officia voluptate sit sunt pariatur'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:44Z'
+     48    | 'sunt dolore excepteur laborum magna'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:45Z'
+     49    | 'qui voluptate culpa do tempor'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:45Z'
+     50    | 'officia magna velit nostrud ullamco'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:46Z'
+
+You may type the following and press enter to proceed:
+	'next'      | View next page
+	'previous'  | View previous page
+	'select'    | View a specific ticket (have the ticket number ready
+	'options'   | Return to the options menu
+	'leave'     | Quit the viewer.
+
+I pick: 	--------Total entries: 201--------	
+Displaying 1 to 25
+Ticket no. | 			Ticket details
+     1     | 'Sample ticket: Meet the ticket'  submitted by  '114370568953'  on the day  '2017-07-08T04:10:19Z'
+     2     | 'velit eiusmod reprehenderit officia cupidatat'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:27Z'
+     3     | 'excepteur laborum ex occaecat Lorem'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:28Z'
+     4     | 'ad sunt qui aute ullamco'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:28Z'
+     5     | 'aliquip mollit quis laborum incididunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     6     | 'nisi aliquip ipsum nostrud amet'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     7     | 'cillum quis nostrud labore amet'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     8     | 'proident est nisi non irure'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:30Z'
+     9     | 'veniam ea eu minim aute'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:30Z'
+     10    | 'magna reprehenderit nisi est cillum'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     11    | 'quis veniam ad sunt non'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     12    | 'tempor aliquip sint dolore incididunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     13    | 'labore pariatur ut laboris laboris'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:32Z'
+     14    | 'officia mollit aliqua eu nostrud'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:32Z'
+     15    | 'do incididunt incididunt quis anim'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     16    | 'tempor magna anim ea id'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     17    | 'exercitation sit incididunt magna laboris'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     18    | 'laborum ea ut in cupidatat'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     19    | 'est fugiat labore pariatur esse'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     20    | 'commodo sint laboris est et'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     21    | 'laboris sint Lorem ex Lorem'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:35Z'
+     22    | 'esse adipisicing consectetur sunt tempor'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:35Z'
+     23    | 'sunt enim pariatur id id'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+     24    | 'et ad ut enim labore'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+     25    | 'voluptate dolor deserunt ea deserunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+
+You may type the following and press enter to proceed:
+	'next'      | View next page
+	'previous'  | View previous page
+	'select'    | View a specific ticket (have the ticket number ready
+	'options'   | Return to the options menu
+	'leave'     | Quit the viewer.
+
+I pick: 
+There is no previous page, try another option
+Here's that page again in case you need it
+
+	--------Total entries: 201--------	
+Displaying 1 to 25
+Ticket no. | 			Ticket details
+     1     | 'Sample ticket: Meet the ticket'  submitted by  '114370568953'  on the day  '2017-07-08T04:10:19Z'
+     2     | 'velit eiusmod reprehenderit officia cupidatat'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:27Z'
+     3     | 'excepteur laborum ex occaecat Lorem'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:28Z'
+     4     | 'ad sunt qui aute ullamco'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:28Z'
+     5     | 'aliquip mollit quis laborum incididunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     6     | 'nisi aliquip ipsum nostrud amet'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     7     | 'cillum quis nostrud labore amet'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     8     | 'proident est nisi non irure'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:30Z'
+     9     | 'veniam ea eu minim aute'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:30Z'
+     10    | 'magna reprehenderit nisi est cillum'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     11    | 'quis veniam ad sunt non'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     12    | 'tempor aliquip sint dolore incididunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     13    | 'labore pariatur ut laboris laboris'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:32Z'
+     14    | 'officia mollit aliqua eu nostrud'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:32Z'
+     15    | 'do incididunt incididunt quis anim'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     16    | 'tempor magna anim ea id'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     17    | 'exercitation sit incididunt magna laboris'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     18    | 'laborum ea ut in cupidatat'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     19    | 'est fugiat labore pariatur esse'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     20    | 'commodo sint laboris est et'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     21    | 'laboris sint Lorem ex Lorem'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:35Z'
+     22    | 'esse adipisicing consectetur sunt tempor'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:35Z'
+     23    | 'sunt enim pariatur id id'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+     24    | 'et ad ut enim labore'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+     25    | 'voluptate dolor deserunt ea deserunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+
+You may type the following and press enter to proceed:
+	'next'      | View next page
+	'previous'  | View previous page
+	'select'    | View a specific ticket (have the ticket number ready
+	'options'   | Return to the options menu
+	'leave'     | Quit the viewer.
+
+I pick: 
+Please type the ticket number and press enter: Retrieving ticket number 42 one moment please.
+
+-------- Ticket number: 42 --------
+
+CREATED: 2017-07-08T06:45:43Z
+SUBJECT: ut anim tempor voluptate deserun
+
+DESCRIPTION: Anim incididunt aute duis c
+onsectetur. Cillum dolore pariatur cillu
+m occaecat sint occaecat ex ullamco moll
+it. Consectetur duis aliquip nostrud con
+sequat cupidatat esse proident laborum p
+roident est eiusmod.
+
+Ipsum fugiat labor
+um exercitation irure et aute ea proiden
+t. Veniam cupidatat culpa veniam amet. E
+nim reprehenderit incididunt do proident
+
+TICKET ID: 114094195313
+REQUESTED BY: 114370568953
+ASSIGNED TO: 114370568953
+OPEN/CLOSED: open
+
+You may type the following and press enter to proceed:
+	'options'   | Return to the options menu
+	'leave'     | Quit the viewer
+
+I pick: 
+Type one of the following then press enter:
+	'tickets' | View all available tickets.
+	'select'  | View a specific ticket (have the ticket number ready).
+	'leave'   | Quit the viewer.
+	'options' | Make me repeat myself.
+
+I pick: 
+It appears my services are no longer required, good bye.
+
+               --------------------------------------------------
+--------------------------------------------------PATH2--------------------------------------------------
+
+Welcome, my name's Alfred
+I will be assisting with your tickets
+
+    To view command options type 'options' then press enter
+    Alternatively to quit type 'leave' then press enter.
+
+
+I pick: 
+Type one of the following then press enter:
+	'tickets' | View all available tickets.
+	'select'  | View a specific ticket (have the ticket number ready).
+	'leave'   | Quit the viewer.
+	'options' | Make me repeat myself.
+
+I pick: 
+Please type the ticket number and press enter: Retrieving ticket number 205 one moment please.
+
+
+That ticket doesn't appear to be available.
+I'm now returning to the options menu
+
+Type one of the following then press enter:
+	'tickets' | View all available tickets.
+	'select'  | View a specific ticket (have the ticket number ready).
+	'leave'   | Quit the viewer.
+	'options' | Make me repeat myself.
+
+I pick: 
+It appears my services are no longer required, good bye.
+
+               --------------------------------------------------
+--------------------------------------------------PATH3--------------------------------------------------
+
+Welcome, my name's Alfred
+I will be assisting with your tickets
+
+    To view command options type 'options' then press enter
+    Alternatively to quit type 'leave' then press enter.
+
+
+I pick: 
+It appears my services are no longer required, good bye.
+
+               --------------------------------------------------
+--------------------------------------------------PATH4--------------------------------------------------
+
+Welcome, my name's Alfred
+I will be assisting with your tickets
+
+    To view command options type 'options' then press enter
+    Alternatively to quit type 'leave' then press enter.
+
+
+I pick: 
+Type one of the following then press enter:
+	'tickets' | View all available tickets.
+	'select'  | View a specific ticket (have the ticket number ready).
+	'leave'   | Quit the viewer.
+	'options' | Make me repeat myself.
+
+I pick: 	--------Total entries: 201--------	
+Displaying 1 to 25
+Ticket no. | 			Ticket details
+     1     | 'Sample ticket: Meet the ticket'  submitted by  '114370568953'  on the day  '2017-07-08T04:10:19Z'
+     2     | 'velit eiusmod reprehenderit officia cupidatat'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:27Z'
+     3     | 'excepteur laborum ex occaecat Lorem'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:28Z'
+     4     | 'ad sunt qui aute ullamco'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:28Z'
+     5     | 'aliquip mollit quis laborum incididunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     6     | 'nisi aliquip ipsum nostrud amet'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     7     | 'cillum quis nostrud labore amet'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:29Z'
+     8     | 'proident est nisi non irure'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:30Z'
+     9     | 'veniam ea eu minim aute'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:30Z'
+     10    | 'magna reprehenderit nisi est cillum'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     11    | 'quis veniam ad sunt non'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     12    | 'tempor aliquip sint dolore incididunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:31Z'
+     13    | 'labore pariatur ut laboris laboris'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:32Z'
+     14    | 'officia mollit aliqua eu nostrud'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:32Z'
+     15    | 'do incididunt incididunt quis anim'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     16    | 'tempor magna anim ea id'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     17    | 'exercitation sit incididunt magna laboris'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:33Z'
+     18    | 'laborum ea ut in cupidatat'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     19    | 'est fugiat labore pariatur esse'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     20    | 'commodo sint laboris est et'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:34Z'
+     21    | 'laboris sint Lorem ex Lorem'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:35Z'
+     22    | 'esse adipisicing consectetur sunt tempor'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:35Z'
+     23    | 'sunt enim pariatur id id'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+     24    | 'et ad ut enim labore'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+     25    | 'voluptate dolor deserunt ea deserunt'  submitted by  '114370568953'  on the day  '2017-07-08T06:45:36Z'
+
+You may type the following and press enter to proceed:
+	'next'      | View next page
+	'previous'  | View previous page
+	'select'    | View a specific ticket (have the ticket number ready
+	'options'   | Return to the options menu
+	'leave'     | Quit the viewer.
+
+I pick: 
+It appears my services are no longer required, good bye.
+
+               --------------------------------------------------

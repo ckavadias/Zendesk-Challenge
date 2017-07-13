@@ -38,20 +38,19 @@ def leave_function():
 #check that connection was successful
 def check_status(raw):
     if raw.status_code != req.codes.ok:
-        error = "Conncetion failed"
-    else:
         try:
             raw.json()["error"]
+            error = raw.json()["error"]
         except KeyError:
-            return True
-        error = raw.json()["error"]
+            error = "Connection failed"       
         
-    print_("\nThe following error occurred:")
-    print_("\n\t - "+error+" -\n")
-    print_("Contact your administrator or try again.")
-    print_options()
+        print_("\nThe following error occurred:")
+        print_("\n\t - "+error+" -\n")
+        print_("Contact your administrator or try again.")
+        print_options()
 
-    return False
+        return False
+    return True
 
 #print out a detailed rendering of a selected ticket
 def print_ticket(ticket):
@@ -258,7 +257,7 @@ def get_ticket():
 
 #usage warning for python 2 users
 if VERSION == '2':
-    print_("\nWARNING: Python 2 will behave differntly to Python 3.")
+    print_("\nWARNING: Python 2 will behave differently to Python 3.")
     print_("When selecting from the options presented please ensure")
     print_("you surround your chosen option with ' ' or \" \" so that")
     print_("the Python 2 interpreter can recognise it.")
